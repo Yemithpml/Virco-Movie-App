@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://media.altchar.com/prod/images/940_530/gm-fd24b856-ca57-4a12-92ba-14ed3b0615e4-keyartspidey16x9small2-pweacyhgb.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: gold;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: goldenrod;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
